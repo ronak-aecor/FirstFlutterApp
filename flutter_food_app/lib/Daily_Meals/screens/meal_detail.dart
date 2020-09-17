@@ -24,9 +24,6 @@ class MealDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context);
-
-
-
     final mealId = ModalRoute.of(context).settings.arguments as String;
     final selectedMeal = Dummy_Meals.firstWhere((meal) => meal.id == mealId);
 

@@ -6,6 +6,7 @@ class FavoritePage extends StatelessWidget {
   final List<Meal> favoriteMeals;
 
   FavoritePage(this.favoriteMeals);
+
   @override
   Widget build(BuildContext context) {
     if (favoriteMeals.isEmpty) {

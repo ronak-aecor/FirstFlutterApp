@@ -31,7 +31,6 @@ class _TabBarsState extends State<TabBars> {
   }
 
   int _selectedPageIndex = 0;
-
   void _selectPage(int index) {
     setState(() {
       _selectedPageIndex = index;

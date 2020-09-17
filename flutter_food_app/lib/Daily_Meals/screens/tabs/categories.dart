@@ -6,9 +6,6 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text('Daily Meals'),
-      // ),
       body: GridView(
         padding: const EdgeInsets.all(10),
         children: Dummy_Data.map(

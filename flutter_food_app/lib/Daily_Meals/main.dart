@@ -93,6 +93,9 @@ class _MyAppState extends State<MyApp> {
             ),
       ),
 
+
+
+      //Routing
       initialRoute: '/', // default screen //
       routes: {
         '/': (ctx) => TabBars(_favoriteMeals),

@@ -19,6 +19,7 @@ class MealItem extends StatelessWidget {
     @required this.affordability,
   });
 
+
   String get complexityText {
     switch (complexity) {
       case Complexity.Simple:

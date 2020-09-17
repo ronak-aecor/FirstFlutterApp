@@ -52,6 +52,7 @@ class _FiltersPageState extends State<FiltersPage> {
                 'vegan': _vegan,
                 'vegetarian': _vegitarian,
               };
+
               widget.saveFilters(selectedFilters);
               Navigator.of(context).pushNamed('/');
             },

@@ -25,6 +25,7 @@ class _CategoryMealsState extends State<CategoryMeals> {
     categoryMeals = widget.availableMeals.where((meal) {
       return meal.categories.contains(categoryId);
     }).toList();
+
     return Scaffold(
       appBar: AppBar(
         title: Text(categoryTitle),
